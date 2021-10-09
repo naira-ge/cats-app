@@ -1,0 +1,26 @@
+@import "../../styles/colors.scss";
+
+.sidebarContainer{
+     background:$secondary-color;
+     width:200px;
+     min-height:100vh;
+     padding: 20px;
+     cursor:pointer;
+     margin-right:1rem;
+
+     li{
+         margin:0 auto;
+         padding:10px 0;
+         
+        p{
+            color: $font-primary;
+            font-weight:500;
+
+            &:hover{
+                color:$font-secondary;
+                font-weight:600;
+            }
+        }
+
+     }
+}

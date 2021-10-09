@@ -1,0 +1,41 @@
+@import "../../styles/colors.scss";
+
+
+.container{
+    margin:1rem auto;
+
+    h2{
+        color:$font-secondary;
+        margin-bottom:15px;
+        font-weight:600;
+        text-align:center;
+    }
+
+
+.moviesList{
+    display:grid;
+    grid-template-columns:repeat(4, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap:15px;
+}
+
+.btnContainer{
+margin: 2rem auto;
+}
+
+.loadBtn{
+    
+    padding: 15px;
+    background-color:$font-secondary;
+    border-radius:10px;
+    border: $font-secondary;
+    outline:none;
+    font-weight:500;
+
+    &:active,
+    &:focus{
+        transform:scale(0.98);
+    }
+}
+
+}
